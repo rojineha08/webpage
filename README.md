@@ -1,2 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Student Page</title>
+
+<style>
+body{
+  font-family: Arial;
+  margin:0;
+  background:#eef1f5;
+  text-align:center;
+}
+
+header{
+  background:#2c3e50;
+  color:white;
+  padding:20px;
+}
+
+nav{
+  background:#34495e;
+  padding:10px;
+}
+
+nav a{
+  color:white;
+  margin:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:yellow;
+}
+
+section{
+  background:white;
+  margin:20px;
+  padding:20px;
+  border-radius:10px;
+}
+
+table{
+  margin:auto;
+  border-collapse:collapse;
+  width:70%;
+}
+
+table, th, td{
+  border:1px solid grey;
+  padding:10px;
+}
+
+footer{
+  background:#2c3e50;
+  color:white;
+  padding:15px;
+  margin-top:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>College Student Portal</h1>
+<p>Welcome Students</p>
+</header>
+
+<nav>
+<a href="#ann">Announcements</a>
+<a href="#time">Timetable</a>
+<a href="#sub">Subjects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="ann">
+<h2>Announcements</h2>
+<p>📢 Mid exams start from 25th March.</p>
+<p>📢 Submit assignments before deadline.</p>
+</section>
+
+<section id="time">
+<h2>Class Timetable</h2>
+<table>
+<tr>
+<th>Day</th>
+<th>Subject</th>
+</tr>
+
+<tr><td>Monday</td><td>Data Structures</td></tr>
+<tr><td>Tuesday</td><td>Python</td></tr>
+<tr><td>Wednesday</td><td>DBMS</td></tr>
+<tr><td>Thursday</td><td>Operating Systems</td></tr>
+<tr><td>Friday</td><td>Web Technology</td></tr>
+</table>
+</section>
+
+<section id="sub">
+<h2>Subjects</h2>
+<ul style="list-style:none;">
+<li>✔ Data Structures</li>
+<li>✔ Python Programming</li>
+<li>✔ DBMS</li>
+<li>✔ Operating Systems</li>
+<li>✔ Web Development</li>
+</ul>
+</section>
+
+<section id="contact">
+<h2>Contact Department</h2>
+<p>Email: cse@college.edu</p>
+<p>Phone: 9876543210</p>
+</section>
+
+<footer>
+<p>© 2026 College Portal</p>
+</footer>
+
+</body>
+</html>
 # webpage
 webpage.html description
